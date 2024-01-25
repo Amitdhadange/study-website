@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 7vw;
+    height: 10vh;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/education-759/2050/Education_flat-19-512.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #eaeefb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+
+}
+.nav>ul{
+    display: flex;
+    gap:8vw;
+    align-items: center ;
+    list-style: none;
+    font-size: 1.5vmax;
+}
+.nav>ul>li{
+    transition:.5s ease-in-out;
+
+}
+.nav>ul>li:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateX(360deg);
+}
+.mid{
+    width: 100%;
+    height: 90vh;
+    background-color: #f6f8fe;
+    display: flex;
+    overflow: hidden;
+}
+.left{
+    width: 50%;
+    height: 90vh;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.left>h1{
+    font-size: 3vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1vmax;
+}
+.left>p{
+    font-size: 1.5vmax;
+    margin-bottom: 1vmax;
+}
+.left>button{
+    padding: 1vmax 2vmax;
+    /* border-radius: 15px; */
+    background-color: black;
+    color: white;
+    transition: .5s ease-in-out;
+    border-radius: 10px;
+}
+.left>button:hover{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+.right{
+    width: 50%;
+    height: 90vh;
+    background-color: #f6f8fe;
+    background-image: url(https://kochiva.com/wp-content/uploads/2022/12/block-courses-1.webp);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #f6f8fe;
+}
+.lefti{
+    width: 50%;
+    height: 100vh;
+    background-color: #f6f8fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lefti>.std{
+    width: 50%;
+    height: 60vh;
+}
+.std>h2{
+    font-size: 3vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2vmax;
+}
+.std>p{
+    font-size: 2vmax;
+    margin-bottom: 1vmax;
+}
+.std>h4{
+    font-size: 1.2vmax;
+    color: rgb(41, 87, 226);
+}
+.righti{
+    width: 50%;
+    height: 100vh;
+    background-color: #f6f8fe;
+    background-image: url(https://smartping.ai/wp-content/uploads/2023/04/contact-banner.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f8fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid2{
+    width: 60%;
+    height: 100vh;
+    /* background-color: rgb(74, 231, 97); */
+    background-image: url(https://smartping.ai/wp-content/uploads/2023/05/Lightning_2-copy.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page4{
+    width: 100%;
+    height: 80vh;
+    background-color: #f6f8fe;
+}
+.srt{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.srt>h1{
+    font-size: 3vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1vmax;
+}
+.srt>p{
+    margin-bottom: 1vmax;
+    font-size: 1.5vmax;
+}
+.srt>button{
+    padding: 1vmax 3vmax ;
+    background-color: black;
+    color: white;
+    font-size: 1.1vmax;
+    transition: .5s ease-in;
+    border-radius: 10px;
+}
+.srt>button:hover{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.);
+}
+.abt{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vmax;
+}
+.logo1{
+    width: 7vw;
+    height: 10vh;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/education-759/2050/Education_flat-19-512.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abt>ul{
+    display: flex;
+    gap: 5vmax;
+    list-style: none;
+    font-size: 1.3vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .8s ease;
+}
+.abt>ul>li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
